@@ -9,7 +9,7 @@ This project uses java springboot framework. It implements the function of addin
 * Install IntelliJ or any appropriate IDE.
 * Clone the repository `git clone https://github.com/stefan0711/fetch-rewards-coding.git`
 * This project uses the maven build tool, and all the dependencies used are in pom.xml
-* Use the Postman test api
+* Use the Postman test Api
 
 ### Start the project in the IDE
 * Run the `/Users/yinzhipeng/work/project/fetch-rewards-coding/src/main/java/com/zhip/fetchrewardscoding/FetchRewardsCodingApplication.java`
