@@ -21,7 +21,7 @@ This project uses java springboot framework. It implements the function of addin
 ## Test Api
 ### Adding a transaction 
 `Post http://localhost:8880/fetch/api/addTransaction`
-* ![avatar](/markdownPic/add.png) 
+![avatar](/markdownPic/add.png) 
 
 * Request body: 
 ```
@@ -32,7 +32,7 @@ This project uses java springboot framework. It implements the function of addin
 }
 ```
 
-* ![avatar](/markdownPic/addreq.png)
+ ![avatar](/markdownPic/addreq.png)
 * Here is the format of the Response body is standardized, code is the status number, request success is 200, message is the returned information provided (optional), data is the code required to return information.
 * Response body:
 ```
@@ -68,7 +68,7 @@ This project uses java springboot framework. It implements the function of addin
     ]
 }
 ```
-* ![avatar](/markdownPic/spend.png)
+![avatar](/markdownPic/spend.png)
 
 ### Get balance
 `Get http://localhost:8880/fetch/api/getBalance`
@@ -85,7 +85,7 @@ This project uses java springboot framework. It implements the function of addin
     }
 }
 ```
-* ![avatar](/markdownPic/balance.png)
+![avatar](/markdownPic/balance.png)
 
 ## Note
 * This project does not have a persistent database, the data is temporarily stored in memory
